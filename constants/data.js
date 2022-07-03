@@ -119,7 +119,7 @@ const userData = {
     description: [
       `I've been developing websites since I was 18 years old. I started my web development career with HTML, CSS and PHP. and After PHP, I've learnt Laravel web Framework.`,
       `After learning HTML and struggling with CSS, I came up with a brilliant idea of using Bootstrap and Tailwind so that I don't have to style everything by myself and - for obvious reasons - if you knew Tailwind, you were cool. 👽`,
-      `But now, I've been coding in React.js, Ract Native, Next.js Node.js, Solidity, Thirdweb, Express, MongoDB, MySQL, Bootstrap, Tailwind, PHP,  programmings language etc to name a few. Although I barely know the syntax (Psst, Stack overflow!), I consider myself a Ninja developer I'm laughing right now.`,
+      `But now, I've been coding in React.js, React Native, Next.js Node.js, Solidity, Thirdweb, Express, MongoDB, MySQL, Bootstrap, Tailwind, PHP,  programmings language etc to name a few. Although I barely know the syntax (Psst, Stack overflow!), I consider myself a Ninja developer I'm laughing right now.`,
     ],
     currentProject: "Coinbase Blockchain app",
     currentProjectUrl: "https://coinbase-tts.vercel.app/",
