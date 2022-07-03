@@ -3,7 +3,7 @@ const userData = {
   name: "Thuta Sann 👽",
   designation: "Frontend/Blockchain Dev",
   avatarUrl: "/thutasann.jpeg",
-  email: "thutasann200@gmail.com",
+  email: "thutasann2002@gmail.com",
   phone: "+95 9895388882",
   address: "S/Okkalpa, Yangon, Myanmar",
   projects: [
