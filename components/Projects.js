@@ -37,7 +37,7 @@ export default function Projects() {
             button.map((btn, i) => {
               return(
                 <button
-                  className="filterBtn text-white dark:text-black"
+                  className="filterBtn text-white dark:text-white"
                   key={i}
                   onClick={() => filter(btn)}
                 >
