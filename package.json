@@ -5,15 +5,18 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "axios": "^0.21.1",
     "next": "10.x",
+    "next-sitemap": "^3.1.6",
     "next-themes": "0.0.15",
     "react": "17.x",
     "react-dom": "17.x",
-    "react-rough-notation": "^1.0.1"
+    "react-rough-notation": "^1.0.1",
+    "sitemap": "^7.1.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.3.1",

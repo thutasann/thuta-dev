@@ -15,7 +15,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
+    <div className="max-w-6xl  mx-auto px-4 py-20">
       <div className="flex  md:flex-row justify-between items-center">
         {/* Logo / Home / Text */}
 
@@ -143,6 +143,7 @@ export default function Navbar() {
           <a
             href={userData.socialLinks.instagram}
             className="text-base font-normal text-gray-600 dark:text-gray-300"
+            aria-label="Instagram" target="_blank" rel="noopener" 
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -158,6 +159,7 @@ export default function Navbar() {
           <a
             href={userData.socialLinks.twitter}
             className="text-base font-normal text-gray-600 dark:text-gray-300"
+            aria-label="Twitter" target="_blank" rel="noopener" 
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -173,6 +175,7 @@ export default function Navbar() {
           <a
             href={userData.socialLinks.linkedin}
             className="text-base font-normal text-gray-600 dark:text-gray-300"
+            aria-label="LinkedIn" target="_blank" rel="noopener" 
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

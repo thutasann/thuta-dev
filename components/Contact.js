@@ -6,10 +6,10 @@ export default function Contact() {
     <section>
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800 antialiased">
         <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
-          Contact
+          Contact Me
         </h1>
       </div>
-      <div className="relative z-10 rounded-md shadow-md bg-[#02044A] p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4">
+      <div className="relative z-10 rounded-md shadow-md bg-[#02044A]  p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 mt-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="md:ml-4">
             <header className="">
@@ -74,6 +74,7 @@ export default function Contact() {
               <a
                 href={userData.socialLinks.facebook}
                 className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
+                aria-label="Facebook" target="_blank" rel="noopener"
               >
                 <svg
                   width="24"
@@ -92,6 +93,7 @@ export default function Contact() {
               <a
                 href={userData.socialLinks.twitter}
                 className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
+                aria-label="Twitter" target="_blank" rel="noopener"
               >
                 <svg
                   width="24"
@@ -112,6 +114,7 @@ export default function Contact() {
               <a
                 href={userData.socialLinks.instagram}
                 className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
+                aria-label="Instagram" target="_blank" rel="noopener"
               >
                 <svg
                   width="24"
@@ -141,7 +144,11 @@ export default function Contact() {
               </a>
             </div>
           </div>
-          <form className="form rounded-lg bg-white p-4 flex flex-col">
+          <form 
+            action="https://formspree.io/f/moqrbjea"
+            method="POST"
+            className="form rounded-lg bg-white p-4 flex flex-col"
+          >
             <label htmlFor="name" className="text-sm text-gray-600 mx-4">
               {" "}
               Your Name
@@ -150,6 +157,7 @@ export default function Contact() {
               type="text"
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="name"
+              id="name"
             />
             <label htmlFor="email" className="text-sm text-gray-600 mx-4 mt-4">
               Email
@@ -158,6 +166,7 @@ export default function Contact() {
               type="text"
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="email"
+              id="email"
             />
             <label
               htmlFor="message"
@@ -170,10 +179,11 @@ export default function Contact() {
               type="text"
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="message"
+              id="message"
             ></textarea>
             <button
               type="submit"
-              className="bg-blue-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold"
+              className="bg-blue-500 rounded-md w-1/2 mx-4 mt-8 py-2 leading-5 text-gray-50 text-xs font-bold"
             >
               Send Message
             </button>

@@ -2,9 +2,10 @@ import React from "react";
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import { RainbowHighlight } from "./RainbowHighlight";
 import userData from "@constants/data";
+import Image from "next/image"
 
 export default function Hero() {
-  const colors = ["#F59E0B", "#84CC16", "#10B981", "#3B82F6"];
+  const colors = ["#0F90D1", "#057C7E", "#123962", "#532c1e"];
   return (
     <div className="flex flex-row justify-center items-start overflow-hidden">
       {/* Text container */}
@@ -12,31 +13,43 @@ export default function Hero() {
       <div className="w-full md:w-1/2 mx-auto text-center md:text-left lg:p-20">
         <RoughNotationGroup show={true}>
           <RainbowHighlight color={colors[0]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
+            <h1 className="text-4xl md:text-8xl font-bold text-gray-50 dark:text-gray-200 my-2">
               Developer.
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={colors[1]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
+            <h1 className="text-4xl md:text-8xl font-bold text-gray-50 dark:text-gray-200 my-2">
               Designer.
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={colors[2]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
-              Programmer.
+            <h1 className="text-4xl md:text-8xl font-bold text-gray-50 dark:text-gray-200 my-2">
+              Blockchain.
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={colors[3]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
-              Youtuber.
+            <h1 className="text-4xl md:text-8xl font-bold text-gray-50 dark:text-gray-200 my-2">
+              Composer.
             </h1>
           </RainbowHighlight>
         </RoughNotationGroup>
       </div>
-      {/* Image container */}
-      <div className="hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20">
-        <div className="w-3/4 ">
-          <img src={userData.avatarUrl} alt="avatar" className=" shadow" />
+
+
+      <div className="hidden lg:block relative w-full md:w-1/2 mt-20">
+        <div className="w-3/4">
+          <div className="relative">
+            <Image 
+              src={userData.avatarUrl} 
+              alt="Thuta sann" 
+              className="shadow w-full" 
+              layout="responsive"
+              width={600}
+              height={600}
+              objectFit="contain"
+              loading="lazy"
+            />
+          </div>
           <div className="flex flex-row justify-between mt-4">
             <div className="flex flex-row space-x-4">
               <svg

@@ -19,3 +19,29 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.filterContainer{
+  width: 100%;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.filterBtn{
+  background-color: #1f2937;
+  border: 1px solid #efefef;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.filterBtn:hover{
+  background-color: #36404e;
+}
+
+.filterBtn:focus{
+  background-color: transparent;
+  box-shadow: rgba(152, 152, 152, 0.24) 0px 3px 8px;
+}
