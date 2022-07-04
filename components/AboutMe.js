@@ -169,10 +169,10 @@ export default function AboutMe() {
                 alt="HTML"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
+                src="https://res.cloudinary.com/practicaldev/image/fetch/s--762O-5e0--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/qy0ctxjhdgvvj6e4ra10.png"
                 className="h-20 w-20 mx-4 my-4"
                 loading="lazy"
-                alt="CSS"
+                alt="Tailwind"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
@@ -184,13 +184,49 @@ export default function AboutMe() {
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
                 className="h-20 w-20 mx-4 my-4"
                 loading="lazy"
-                alt="React"
+                alt="React.js"
+              />
+              <img
+                src="https://www.rlogical.com/wp-content/uploads/2021/08/Rlogical-Blog-Images-thumbnail.png"
+                className="h-20 w-20 mx-4 my-4"
+                loading="lazy"
+                alt="Next.js"
+              />
+              <img
+                src="https://pbs.twimg.com/profile_images/1467870351522738182/mgQPFYpd_400x400.jpg"
+                className="h-20 w-20 mx-4 my-4"
+                loading="lazy"
+                alt="Gatsby.js"
+              />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/2048px-GraphQL_Logo.svg.png"
+                className="h-20 w-20 mx-4 my-4"
+                loading="lazy"
+                alt="Graphql"
+              />
+              <img
+                src="https://nodejs.org/static/images/logo.svg"
+                className="h-20 w-20 mx-4 my-4"
+                loading="lazy"
+                alt="Nodejs"
+              />
+              <img
+                src="https://seeklogo.com/images/P/postman-logo-F43375A2EB-seeklogo.com.png"
+                className="h-20 w-20 mx-4 my-4"
+                loading="lazy"
+                alt="Postman"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"
                 className="h-20 w-20 mx-4 my-4"
                 loading="lazy"
                 alt="Angular"
+              />
+              <img
+                src="https://miro.medium.com/max/500/1*AbiX4LwtSNozoyfypcKvEg.png"
+                className="h-20 w-20 mx-4 my-4"
+                loading="lazy"
+                alt="Spring boot"
               />
               <img
                 src="https://github.com/strapi.png"
