@@ -88,7 +88,7 @@ const userData = {
       id: 12,
       category: 'Angular',
       title: "Angular GameDB App",
-      link: "https://reddit-thuta.vercel.app/",
+      link: "https://videogame-tts.vercel.app/",
       imgUrl: "/gamedbclone.png"
     },
     {
