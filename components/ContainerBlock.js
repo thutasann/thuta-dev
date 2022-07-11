@@ -19,7 +19,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
       <Head>
         <title>{meta.title}</title>
         <link rel="icon" type="image/x-icon" href="/thutasann.jpeg"></link>
-        <meta name="robots" content="follow, index" />
+        <meta name="robots" content="index" />
         <meta name="google-site-verification" content="lt2KD97W6zCJHumr4ckLHj-3cMOvWcJl30mKEJiglz8" />
         <meta name="keywords" content="Thuta Sann, Web Developer, BlockChain Developer, UI/UX Designer, Song Composer, FullStack Developer, Content Manager" />
         <meta content={meta.description} name="description" />
